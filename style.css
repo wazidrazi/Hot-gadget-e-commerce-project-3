@@ -1,0 +1,119 @@
+.container{
+    margin-top: 20px;
+}
+
+.btn-style{
+    border: #707070;
+    background-color: #000000;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+
+}
+
+/* Carousel */
+
+
+.carousel-indicators .active {
+    height: 7px;
+    width: 30px;
+    border-radius: 14px;
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+  }
+
+
+  /* Cards */
+
+ 
+  .anchor{
+    text-decoration: none;
+  }
+  .card-img-top{
+    padding: 30px 30px;
+  }
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #e8e7e7;
+
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    padding-bottom: 1.5rem;
+}
+
+
+/* Categories */
+
+
+  #perfume-cat, #shoe-cat{
+      border-radius: 15px 5px 30px 5px;
+  }
+  
+  #bag-cat{
+      border-radius: 5px 15px 5px 30px;
+  }
+
+
+
+  /* Footer section */
+
+
+
+  
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+        
+
+  
+  .card-foot{
+      padding: 2% 7%;
+      color: #646771;
+      background-color: #16151a;
+      border-radius: 10px;
+  }
+  
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  ul >li{
+      padding: 4px;
+  }
+  
+  ul > li:hover{
+      color:#957bda;
+      cursor: pointer;
+  }
+  
+  hr{
+      border-width: 3px;
+  }
+  
+  .social > i{
+      padding: 1%;
+      font-size: 15px;
+  }
+  
+  .social > i:hover{
+      color:#957bda;
+      cursor:pointer;
+  }
+  
+  .policy > div{
+      padding: 4px;
+  }
+  
+  .heading{
+      font-family: 'Titillium Web', sans-serif;
+      color: white;
+  }
+  
+  .divider{
+      border-top: 2px solid rgba(189, 196, 203, 0.5);;
+  }
